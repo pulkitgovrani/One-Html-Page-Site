@@ -1,0 +1,147 @@
+nav{
+    /*background-color: rgb(255, 208, 247,0.8);*/
+    display: flex;
+}
+
+.left-navbar img{
+    width: 80px;
+    height: 40px;
+    padding-top: 5px;
+    padding-left: 5px;
+    
+
+}
+.left-navbar{
+    width: 60%;
+}
+
+.right-navbar{
+    width: 40%;
+
+}
+.right-navbar .nav-items{
+    display: flex;
+    list-style: none;
+     
+    
+}
+.item a{
+    
+    text-decoration: none;
+    color: antiquewhite;
+    
+    border: 5px solid black;
+    padding: 5px;
+    background-color: black;
+    border-radius: 20px;
+    transition: all 0.3s;
+    font-family: sans-serif;
+}
+.item a:hover{
+    
+    background-color: orange;
+    cursor: pointer;
+    border: 5px solid orange;
+    
+}
+.item{
+    padding-left: 15px;
+}
+
+/*The navigation work is stopped here*/
+
+/*First section work started*/
+.first{
+    margin-top: 10px;
+    background:url('./images/skateboard-5221914_640.jpg');
+    width: 100%;
+    height: 600px;
+    
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.6;
+}
+
+.text{
+    font-size: 30px;
+    padding-left: 40px;
+    width: 35%;
+    align-content: center;
+    font-family: sans-serif;
+}
+
+
+.cards{
+    width: 33%;
+    display: block;
+    text-align: center;
+    border:5px solid black;
+    margin-left: 10px;
+    border-radius: 16px;
+}
+.cards img{
+    padding-top: 10px;
+    height: 150px;
+}
+.head{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 45px;
+    font-family: sans-serif;
+}
+.container{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+}
+.content{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+
+/*Review section is starting from here*/
+.second{
+    background-color: rgb(199, 197, 197);
+}
+.dabba{
+    text-align:center;
+    width: 100%;
+    display: block;
+}
+.peoplelots{
+    
+    display: block;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.person{
+    display: flex;
+    padding-left: 30px;
+}
+.person img{
+    width: 10%;
+    height: 75px;
+    padding-top: 10px;
+}
+
+
+/*Contact information*/
+fieldset{
+    
+    display: flex;
+    
+    
+}
+.details{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
